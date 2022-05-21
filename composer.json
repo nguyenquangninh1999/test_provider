@@ -1,0 +1,25 @@
+{
+    "name": "ninh/abc",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ninh\\Abc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nguyenquangninh1999",
+            "email": "nguyenquangninh456@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ninh\\abc\\ShoppingcartServiceProvider"
+            ]
+        }
+    }
+}
