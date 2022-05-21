@@ -11,7 +11,7 @@ class ShoppingcartServiceProvider extends ServiceProvider
     {
 
         $this->app->bind('Hello', function () {
-            return 'haha';
+            return 'huhu';
         });
     }
 
